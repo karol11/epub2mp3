@@ -1,0 +1,9 @@
+go 1.26.4
+
+use (
+	./cmd/app
+	./epub-text-extractor
+	./google-studio-tts-converter
+	./mp3-merger
+	./chunk-cache
+)
